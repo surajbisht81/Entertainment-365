@@ -1,0 +1,28 @@
+.first_image{
+    width: 1351px;
+    height: 527px;
+}
+
+.genre__selection{
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.genre__selection__upper{
+    margin: 30px auto;
+}
+
+.genre__selection__upper > select{
+    background-color: #fada5e;
+    border-radius: 5px;
+    height: 28px;
+    width: 70px;
+}
+
+.genre__selection__upper > input{
+    background-color: #fada5e;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+}

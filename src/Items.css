@@ -1,0 +1,23 @@
+
+.items{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    margin: 0 30px;
+}
+
+.items .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 60%; 
+    text-align: center;
+    width: 60%; 
+    color: white;
+}
+
+.items > img{
+    width: 200px;
+    height: 250px;
+}

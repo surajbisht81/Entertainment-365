@@ -1,0 +1,9 @@
+
+.all > .all__items{
+    margin: 30px;
+}
+
+.all__items{
+    display: flex;
+    justify-content: space-evenly;
+}

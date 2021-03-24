@@ -1,0 +1,25 @@
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #c2b280;
+}
+
+.footer > button{
+    outline: none;
+    font-size: 30px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.footer > p{
+    font-size: 20px;
+    margin: auto;
+}
+
+a{
+    all: unset !important;
+}

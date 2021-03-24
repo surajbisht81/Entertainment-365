@@ -1,0 +1,32 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #c2b280;
+}
+
+.header__right{
+    display: flex;
+    margin-left: 35px;
+    align-items: center;
+    object-fit: contain;
+}
+
+.header__right > p{
+    padding: 0 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header__left > button{
+    font-size: 30px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+a{
+    all: unset !important;
+}
